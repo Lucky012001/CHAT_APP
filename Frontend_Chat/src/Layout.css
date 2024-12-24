@@ -1,0 +1,23 @@
+.layout {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background: linear-gradient(120deg, #232526, #414345);
+  /* background: linear-gradient(120deg, #FDFBFB, #EBEDEE); */
+
+
+
+}
+
+.layout-body {
+  display: flex;
+  flex: 1;
+}
+
+
+
+.sidebar {
+  padding: 20px;
+  position: fixed;
+  /* width: 345px; */
+}

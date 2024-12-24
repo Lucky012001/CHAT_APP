@@ -1,0 +1,175 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background: black;
+
+
+
+
+
+  margin-left: 365px;
+  color: white;
+  font-family: 'Arial', sans-serif;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 45px;
+  height: 45px;
+  margin-right: 12px;
+  border-radius: 50%;
+  /* Circular logo */
+  border: 2px solid white;
+  /* Border around the logo */
+}
+
+.app-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: white;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  /* Subtle text shadow */
+}
+
+.username {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  margin-right: 15px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  /* Subtle text shadow */
+}
+
+.navbar-buttons {
+  display: flex;
+  gap: 12px;
+}
+
+.btn {
+  background: linear-gradient(to right, #2c3e50, #3498db);
+
+
+
+  /* Attractive gradient */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 25px;
+  /* Pill-shaped button */
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  /* Smooth hover transition */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+  /* Shadow for depth */
+}
+
+.btn:hover {
+  background: linear-gradient(to right, #3498db, #2c3e50);
+  /* Reverse gradient on hover */
+  transform: translateY(-2px);
+  /* Lift effect */
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+  /* Enhanced shadow on hover */
+}
+
+.navbar-link {
+  display: flex;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+  /* Remove underline */
+  font-size: 1rem;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.navbar-link:hover {
+  /* color: #f1c40f; */
+  /* Highlight text on hover */
+  transform: scale(1.05);
+  /* Slight enlargement */
+}
+
+.users-dropdown-btn {
+  background-color: #28a745;
+  /* Green color */
+  font-size: 16px;
+}
+
+.users-dropdown {
+  position: absolute;
+  top: 100px;
+  /* Adjust the dropdown position */
+  right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: white;
+  width: 300px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  z-index: 10;
+  color: black;
+  padding: 10px;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.user-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.user-card {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.user-card:hover {
+  background-color: #f0f0f0;
+}
+
+.user-image {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.user-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.user-name {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.user-profession {
+  font-size: 12px;
+  color: #666;
+}
+
+.search-bar {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}

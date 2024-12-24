@@ -1,0 +1,115 @@
+/* Chatbox Container */
+.user-detail-chatbox {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 600px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #f0f0f0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    margin: 20px auto;
+    margin-left: 400px;
+ 
+
+}
+
+
+/* Navbar */
+.user-detail-navbar {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #075e54;
+    color: white;
+}
+
+.user-detail-navbar-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.user-detail-navbar-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.user-detail-navbar-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.user-detail-navbar-profession {
+    font-size: 14px;
+    margin: 0;
+    color: #d0d0d0;
+}
+
+/* Chat Body */
+.user-detail-body {
+    flex: 1;
+    padding: 15px;
+    background-color: #ffffff;
+    overflow-y: auto;
+}
+
+.user-detail-body p {
+    margin: 8px 0;
+    font-size: 14px;
+    color: #555;
+}
+
+.user-detail-body strong {
+    color: #000;
+}
+
+/* Input Box */
+.user-detail-input-box {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #f8f8f8;
+    border-top: 1px solid #ddd;
+}
+
+.user-detail-input {
+    flex: 1;
+    padding: 10px;
+    margin: 0 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    font-size: 14px;
+    outline: none;
+}
+
+.icon {
+    font-size: 18px;
+    color: #555;
+    cursor: pointer;
+}
+
+.file-icon {
+    margin-right: 10px;
+}
+
+.send-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.send-button .send-icon {
+    color: #075e54;
+    font-size: 20px;
+}
+
+/* ========================================= */
+ 
+
+
